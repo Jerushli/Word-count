@@ -29,17 +29,19 @@ End the program
 
 ## PROGRAM:
 
-
+```
+NAME:JERUSHLIN JOSE J B
+REN NO:2212222240039
+```
 
 
 ```
-fname=input("enter the file name:")
-num_words=0
-with open(fname,'r') as f:
-  for line in f:
-    words=line.split()
-    num_words+=len(words)
-print('Number of words:',num_words)
+num_word=0
+with open ("sample.txt",'r') as f:
+for i in f:
+word=i.split()
+num_word+=len(word)
+print("number of words ={}".format(num_word)
 ```
 
 
@@ -50,7 +52,15 @@ print('Number of words:',num_words)
 
 
 
-![image](https://github.com/Jerushli/Word-count/assets/120041243/dcbc6d64-ecde-4ddd-b084-567bdbf286dd)
+
+![image](https://github.com/Jerushli/Word-count/assets/120041243/c96a6704-8de2-4831-a69f-1d44a811212c)
+
+
+
+
+
+
+![image](https://github.com/Jerushli/Word-count/assets/120041243/53d0c90d-910d-4bdb-994c-643230f287b0)
 
 
 
